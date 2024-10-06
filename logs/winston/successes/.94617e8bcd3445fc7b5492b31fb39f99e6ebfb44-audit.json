@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\personal\\level-2\\rucare-backend\\logs\\winston\\successes\\.94617e8bcd3445fc7b5492b31fb39f99e6ebfb44-audit.json",
+    "files": [
+        {
+            "date": 1728236799145,
+            "name": "D:\\personal\\level-2\\rucare-backend\\logs\\winston\\successes\\phu-2024-06-10-23-success.log",
+            "hash": "7672c75059879e0e0bfe864141d2b5c04c74b3b634f73bbac46ed61fab70f470"
+        },
+        {
+            "date": 1728238665854,
+            "name": "D:\\personal\\level-2\\rucare-backend\\logs\\winston\\successes\\phu-2024-07-10-00-success.log",
+            "hash": "7e7f66f2ed57f36c7d0b7ddf081caacfcd4b740544fd340cd21109e57e23670a"
+        }
+    ],
+    "hashType": "sha256"
+}
