@@ -20,7 +20,7 @@ app.use(
 
 app.use(cookieParser());
 
-//parser
+// parser
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -41,10 +41,10 @@ cron.schedule('* * * * *', async (): Promise<void> => {
   }
 });
 
-//global error handler
+// global error handler
 app.use(globalErrorHandler);
 
-//handle not found
+// handle not found
 app.use((req: Request, res: Response, next: NextFunction) => {
   res.status(httpStatus.NOT_FOUND).json({
     success: false,
